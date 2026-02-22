@@ -25,7 +25,7 @@ Placement
 
 ---
 
-##🛠️ Libraries 
+## 🛠️ Libraries 
 ``` python
 import pandas as pd
 import numpy as np
@@ -40,7 +40,9 @@ from sklearn.metrics import confusion_matrix
 ---
 
 ## 🧹 Data Preprocessing
-
+```python
+Data = pd.read_csv('/content/college_student_placement_dataset.csv')
+```
 **✅ Data Cleaning**
 
 * No Missing Values
